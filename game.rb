@@ -27,13 +27,11 @@ class Game
     box.tiles.each do |tile|
       print tile.to_s + ' | '
     end
-    puts "\n"
-    print "You rolled: "
+    print "\nYou rolled: "
     dice.each do |die|
       print "#{die.value} "
     end
-    puts "\n"
-    puts "Which tiles would you like to flip (separate by spaces): "
+    puts "\nWhich tiles would you like to flip (separate by spaces): "
     tiles_to_flip = gets.chomp
     prepare_next_round
   end

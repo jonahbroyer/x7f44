@@ -19,8 +19,4 @@ class Box
     false
   end
 
-  def to_s
-    "Box"
-  end
-
 end
